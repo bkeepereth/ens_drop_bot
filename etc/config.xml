@@ -1,0 +1,12 @@
+<configuration>
+  <property><name>DS_TOKEN</name><value></value></property>
+  <property><name>CHANNEL_ID</name><value></value></property>
+  <property><name>BEARER_TOKEN</name><value></value></property>
+
+  <!-- mongodb config -->
+  <property><name>m_user</name><value></value></property>
+  <property><name>m_pwd</name><value></value></property>
+  <property><name>m_host</name><value></value></property>
+  <property><name>m_port</name><value></value></property>
+  <property><name>db_name</name><value></value></property>
+</configuration>
