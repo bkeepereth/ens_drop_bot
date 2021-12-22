@@ -20,3 +20,6 @@ My mongo configuration is named 'ens_drop_daily' for the database and 'tweet_24h
 ## EX: 
 ./ens_bot.py -c ../etc/config.xml
 
+<p align="center" width="100%">
+   <img src="work/ens_bot_test_run1.png">  
+</p>
