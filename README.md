@@ -9,6 +9,7 @@ The bot will parse and process each tweet from the response object. <br>
 Each new tweet that comes in is checked against the mongodb cache, to check if it is a duplicate.<br>
 If it is, the tweet is discarded.<br>
 Otherwise, the tweet will be shipped to the Discord channel and logged in the cache.<br><br>
+Repeat....</br>
 
 ## Future Improvements
 
