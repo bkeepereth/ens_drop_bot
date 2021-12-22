@@ -6,7 +6,8 @@ Special Thanks to @drakedanner for the inspiring this project.
 
 The bot will collect 99 tweets from the recent search Twitter Endpoint.<br>
 The bot will parse and process each tweet from the response object. <br>
-Each new tweet that comes in is checked against the mongodb cache, to check if it is a duplicate, if it is the tweet is discarded.<br>
+Each new tweet that comes in is checked against the mongodb cache, to check if it is a duplicate.<br>
+If it is, the tweet is discarded.<br>
 Otherwise, the tweet will be shipped to the Discord channel and logged in the cache.<br><br>
 
 ## Future Improvements
