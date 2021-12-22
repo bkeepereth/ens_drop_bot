@@ -4,15 +4,15 @@ Special Thanks to @drakedanner for the inspiring this project.
 
 ## Configuration
 
-The bot relies on the Twitter API.
-The BEARER_TOKEN field must be present for the bot to function.
-A bearer token can be obtained by signing up for a Twitter Developer Account (FREE).
+The bot relies on the Twitter API.<br>
+The BEARER_TOKEN field must be present for the bot to function.<br>
+A bearer token can be obtained by signing up for a Twitter Developer Account (FREE).<br><br>
 
-DS_TOKEN refers to the Discord Bot Token used for auth.
-CHANNEL_ID refers to the Channel Id that the bot will send messages to.
+DS_TOKEN refers to the Discord Bot Token used for auth.<br>
+CHANNEL_ID refers to the Channel Id that the bot will send messages to.<br>
 
-Lastly, the bot stores the tweet data in a mongodb cache.
-I named my mongo database, 'ens_drop_daily', and my collection, 'tweet_24hr'
+Lastly, the bot stores the tweet data in a mongodb cache.<br>
+My mongo configuration is named 'ens_drop_daily' for the database and 'tweet_24hr' for the collection.<br>
 
 ## Usage
 ./ens_bot.py -c [config]
